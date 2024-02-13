@@ -1,0 +1,51 @@
+
+Application:Set of programs 
+to manage app we need Datacenter but as our apps are very big on premise data centers are not sufficient to manage app
+and we are moving to cloud data center to manage infrastructure 
+
+Application should  satisfy few conditions:
+
+fast delivery
+higher quality
+less spending
+always available:eg customer care
+
+eg:swiggy,zepto,dunzo..
+
+
+DevOps:It is amethod or culture to develop app for faster delivery with high quality and less time and always available
+It is a set of tools to manage and establish CI/CD pipeline 
+Withe the help of CI/CD pipeline we are going to deliver our app rapidly
+
+A,B,C,D
+
+Artificial Intelligence
+Block Chain
+Cloud
+Data Science 
+
+Practice daily for 2-3 hrs
+
+Linux commands and Scripting knowledge
+
+How to manage scripting using Groovy
+Json
+Scripting
+YAML 
+
+
+
+
+
+To manage application we will be using data center or cloud data center
+
+that app is organised by set of computers
+these computers are going to be associated with different type of components and they will manage application 
+
+Technology used to manage their application:Cloud technology
+
+AWS
+Azure
+Gcp
+IBM
+Oracle
