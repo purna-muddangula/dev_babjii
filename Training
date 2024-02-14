@@ -1,3 +1,13 @@
+Learning Curve:
+
+Application
+Data center
+Cloud Data Center
+Devops 
+Basics
+
+
+
 
 Application:Set of programs 
 to manage app we need Datacenter but as our apps are very big on premise data centers are not sufficient to manage app
@@ -49,3 +59,78 @@ Azure
 Gcp
 IBM
 Oracle
+
+
+Road Map:
+
+DevOps:set of practices that combine software development and it operations.It aims to shorten the systems development life cycle 
+and provide continous delivery with high quality software.
+
+AWS 
+LINUX
+DEVOPS
+SCRIPTING
+
+AWS Services:
+
+IAM
+S3
+ROUTE 53
+Dynamo db & RDS
+VPC
+EC2
+SNS
+SQS
+SWF
+CW
+CT
+Light Sale
+AWS Promethews
+AWS Harmchat
+Grafana
+
+
+
+IAM:Managing users
+EC2:launching of servers
+S3:Storing, creating and managing buckets
+VPC:Network management
+RDS:Database service
+R53:Managing dns
+SNS:Sending messages and notifications
+SQS:Amazon Simple Queue Service (Amazon SQS) lets you send, store, and receive messages
+Amazon Simple Workflow Service (SWF) is a web service that makes it easy to coordinate work across distributed application components.
+CW:Amazon CloudWatch is a monitoring and management service
+CT:CloudTrail enables auditing, security monitoring, and operational
+Light Sail:Amazon Lightsail is a virtual private server (VPS) provide
+AWS Promethews:Prometheus is open source monitoring system and time series database.
+Grafana:open source analytics and monitoring system.
+AWS Harmchat:
+
+
+LINUX:
+
+File Commands
+Process Mnagement:(finding dif users, finding diskspace, ts commands, where is the app and how to process)
+Compression:unlocking zip and jar files
+Network Oriented command:
+File permissios
+Searching data 
+System Information
+Shortcuts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
