@@ -130,6 +130,52 @@ Linux commands--
 
 
 
+Why AWS Cloud 
+Store Information of aws account/AWS Certification as well
+AWS Account
+Terms
+
+AWS:Global Infrastructure
+We can host/launch our app wherever we want
+And it is categorized into 31 regions
+Geo locations are regions
+First Geo location is 'North Virginia'
+India:two geo locations
+ Mumbai
+ Hyderabad
+
+99 AVilability Zones(Datacenters)
+Data centers:set of servers stored in warehouse in the form of racks
+
+There are 3 data centers in Mumbai
+
+Edge locations:like cell phone towers
+
+AWS is more flexible and scalable
+
+Scalability:scaling up and down
+Elasticity:
+
+Security Layer
+AWS Account
+
+Q.How to login with Root account
+Q.What is the use of root use, diff between IAM VS Root user
+  Root user has full access of resources and services
+  
+
+MFA:Multi Factor Authentication
+
+Creating IAM user
+
+We can also attach or dettach permission for IAM users through Root user login
+
+
+
+
+
+
+
 
 
 
