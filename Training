@@ -170,6 +170,61 @@ Creating IAM user
 
 We can also attach or dettach permission for IAM users through Root user login
 
+EC2,
+
+EC2:To perform computing in cloud Tech in AWS service  ec2 is used
+EC2:Elastic Cloud computer
+
+I we want to launch instance the prerequisites are
+AMI:Amazon Machine Image
+Template that contains the software configuration (os,app server and apps) req to launch instance
+
+1.OS Version
+2.Instance Type
+   t2
+   t3
+
+3.Volumes :EBS
+4.Keypair(.pem/ppk)
+  Keypair login (info) :Secure connection to AMI
+  One KP can be used mlp times with AMI Templates
+
+
+Keypairs are unique but one keypair can be used same template for of multiple files
+
+Security Group:It is like one of the port
+
+Port no's allows to launch machines 
+SSH for amazon
+RDP for windows
+
+Freq used ports to launch ec2 machines
+21:FTP
+22:SSH
+23:TELNET
+80:WEB
+53:DNS
+161:SNMP
+
+Port mo means protocol
+IP Address
+ private IP addres:connecting servers , to establish connection between two servers we need private ip
+ public ip address
+ 
+
+
+  
+
+
+
+
+Q.What is EC2
+Q.What is the nameof ec2 server
+Q.AMI
+
+In ec2 server are called as instances
+
+
 
 
 
