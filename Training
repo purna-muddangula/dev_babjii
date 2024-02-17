@@ -225,6 +225,86 @@ Q.AMI
 In ec2 server are called as instances
 
 
+Instances once terminated cant be used but one pem file can be used for multiple instances with same template 
+
+
+
+Instance type we are using
+what is t2.micro:isntance type
+general purpose: ebs
+And why t2.micro
+what are different types of instance types we are using  and can we use for real time apps
+and we cant use t2.micro for real time
+
+Name of hard disk:volumes
+service name is called:ebs elastic block storage
+
+What is security group:port no
+if we launch linux machine what is the port no and what is the protocol
+SSH, 22
+If we want to launch instance what is the status check need to pass:2/2 check
+what is 1/2 and what is 2/2?
+what is the status of instance when it is ready to connect:running
+
+one security group can be used for multiple ami's 
+when we create new instance every time it will asks for security group as well we can use old security group or else we can create other
+
+what is the use of private ip:it is used to connect two instances
+public ip :is used for we can access this public ip for users 
+
+AMI:Template that consiist software configuration
+And hardware configuration in instance type
+key pair is used for secure connection of instance 
+
+computing device:instance type
+t2.micro is one type of processor
+
+How to store data: in the form of hard disk 
+
+For storing data in computer :Hard disk
+Here we rae using Hard disk as Volumes that is EBS 
+
+Key Pair:
+
+if we want to install os as windows we need keys so we will be generating keys and that key pair is in the form of (.pem)
+we can also use .ppk 
+once kay pair can be used for multiple ami's
+key pair:secure connection for ami and one key pair can be used for multiple times with same ami template
+pem file is in the form of keypair 
+
+Security Group:It is very imp to launch ami's
+security group means port's
+diff ports for diff machines
+amazon:ssh port
+windows machine:rdp port
+port no:allows to launch machine 
+
+2/2 checks means allocating hardware to resources and loading ami to the server
+
+
+Instance states
+
+Pending
+Running 
+Stopping
+Stopped
+Shutting Down
+Terminate
+
+
+1/1:Hardware allocation
+2/2:Software Allocation
+
+
+Mobaxterm
+git bash
+putty 
+we can use any above of those external softwares through pem file and will launch ec2 instance (Virtualization layer is launched)
+
+
+
+
+
 
 
 
