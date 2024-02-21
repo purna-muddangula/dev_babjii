@@ -302,6 +302,60 @@ putty
 we can use any above of those external softwares through pem file and will launch ec2 instance (Virtualization layer is launched)
 
 
+sudo yum install httpd:to install Apache Tomcatapp
+whcih httpd:shows location
+service httpd status:to check status 
+
+system ctl status:shows status 
+
+sudo service httpd start
+start httpd.service
+
+sudo service httpd reload
+service httpd reload
+
+sudo chkconfig httpd on
+
+sudo service disable httpd:to disable te service
+sudo yum remove httpd -y: to remove the service 
+
+
+service/systemctl/chkconfig :All are similar
+
+sudo service httpd stop:to stop the service 
+
+system ctl:service in linux to start packages
+This is a kind of service in the linux.By using this service we can start the services like 
+
+ngnix
+jenkins
+http
+ansible
+
+WebServer:Taking the req from the client and redirecting the service like httpd 
+
+Bootstarp script
+
+
+App is hosted by ec2 instance 
+
+ HTTP:80
+HTTPS:443
+
+One security group can be used multiple times for any type of linux machine
+
+Inbound rule:Trffic towrds ec2 machine
+Outbond rule:traffic which is going outside from ec2 
+
+for inbound rules we need to enable ports and it is not required for outbond 
+for outbond we need to choose All traffic(means TCP)
+
+
+
+
+
+
+
 
 
 
