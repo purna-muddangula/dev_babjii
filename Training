@@ -364,6 +364,35 @@ Loading Boostrap script:
 
 
 
+In windows we have xecutables files .exe :examples:java, vlc layer,python
+softwares are packages :git,maven,jenkins,dockers,python,java,tomcat
+
+YUM:yellowdog update modifier
+YUM is a command it is an open source 
+All kind of packages which we need for daily jobs 
+package management utility 
+
+If we want to install any sofware in linux we need to install package YUM
+apt-get :is also same for it is used for UBUNTU
+
+sudo yum install tree -y:we can see entire structure of installed and created files
+
+whoami:shows the current user
+
+Command to find the Hostname:hostname
+ifconfig:to check ip addresss and complete data of instance
+hostname -i:only displays private ip address
+
+which mvn
+which git
+
+to find out exact location of software package
+
+echo:to print 
+
+web server:install httpd
+           start the service 
+
 
 
 
