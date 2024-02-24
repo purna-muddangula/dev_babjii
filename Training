@@ -352,6 +352,19 @@ for outbond we need to choose All traffic(means TCP)
 
 
 
+App server:
+
+Web server:takes req from client and we are going to redirecting the service like httpd
+
+Booting:In this process some instructions some programs 
+
+process of loading some instructions while swtiching on the system 
+
+Loading Boostrap script:
+
+
+
+
 
 
 
