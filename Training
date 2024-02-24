@@ -393,6 +393,7 @@ echo:to print
 web server:install httpd
            start the service 
 
+sudo kill -SIGKILL 27812  :to kill processor 
 
 
 
