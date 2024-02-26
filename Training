@@ -395,6 +395,11 @@ web server:install httpd
 
 sudo kill -SIGKILL 27812  :to kill processor 
 
+sudo systemctl status httpd:to check the status 
+sudo yum install httpd -y:to install
+ sudo systemctl start httpd
+
+
 
 
 
