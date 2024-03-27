@@ -401,6 +401,27 @@ sudo yum install httpd -y:to install
 
 
 
+==================================================================================
+
+Cloud watch:To monitor resources which is associated with APP/Nw
+
+Two types of monitoring 
+Default--for free tier
+Detail--for billable 
+
+It is associated with SNS and Metrics 
+
+We have couple of metrices like
+
+SNS and Metrics (resources id)
+CPU utilization
+Disk Read and write OPS
+Network IN & OUT 
+Alaram: 3 states
+
+
+
+
 
 
 
