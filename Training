@@ -420,6 +420,14 @@ Network IN & OUT
 Alaram: 3 states
 
 
+CloudWatch:
+
+This is integrated service of AWS
+
+we will be pushing cloud watch to two difeerent types of tools one is Splunk and the other one is data dog
+we can also trigger the alaram as well
+
+
 
 
 
