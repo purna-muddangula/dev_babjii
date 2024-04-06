@@ -456,7 +456,24 @@ By using these Mavne we can achieve Vulnerability. Means trust between each and 
 
 Maven:open source tool
 It has maven repository
-It also has POM.XML file it contains two things one is plugins and dependecies 
+It also has POM.XML file it contains two things one is plugins and dependecies
+
+
+Maven is for generating Artifacts
+
+In Maven using commands generate Jar files that contains POM.xml file once it is done 
+
+once jar file is created we need to create war file 
+
+war file --> git hub --> jenkins/ Docker/Kubernetes
+
+
+mvn archetype:generate -->taking sample project
+cd --> compile --> mvn compile
+mvn test --> convert  all class files (if more than 1)
+mvn package --> data --> Artifact
+
+
 
 
 
