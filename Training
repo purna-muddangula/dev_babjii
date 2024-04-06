@@ -482,6 +482,15 @@ After doing compile these files will be converted as POM.xml and source coude wi
 
 Now give the command MVN package:which creates jar files(This is the Artifact)
 
+Now go to that folder and open git bash termianl
+add those files to staging area and commit those to main branch 
+and create one repo in remote 
+and push these files to that repo
+
+git push -u origin main 
+
+Now tese jar files will be pushed to remote 
+
 
 
 
