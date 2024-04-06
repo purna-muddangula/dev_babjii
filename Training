@@ -430,6 +430,37 @@ we can also trigger the alaram as well
 
 
 
+Git:Session
+
+Git 
+Git Hub
+Git bash
+
+Opensource tol, dsitributed vcs 
+
+Maven:Build Tool
+
+some of the build tools are
+
+ANT
+Gradle
+Jfrog
+Maven
+
+By using tjese buld in tools artifacts are generated
+Artifacts:.war files, jar files, zip files 
+
+All files togehther can be sent as Artifacts if we send as artifacts then no one can destory our source code 
+
+By using these Mavne we can achieve Vulnerability. Means trust between each and every file
+
+Maven:open source tool
+It has maven repository
+It also has POM.XML file it contains two things one is plugins and dependecies 
+
+
+
+
 
 
 
