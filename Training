@@ -502,6 +502,46 @@ mvn package --> data --> Artifact
 Create one EC2 instance in windows and install Maven 
 
 
+In order to launch windows rdp
+
+create ec2 instance
+now choose download RDP and create new key pair with RSA uisng .pemfile
+and after downloading upload the diwnloaded pemfile to access the pw
+and now use th provided pw and connect to rdp
+install git in edge in rdp and then install of the req apps like mvn
+
+Now as we have already generated jar files now we have to generate war files
+
+jar files not suitable for TOMCAT server it needs war files 
+In Jenkins/ dOcker/ K8'S we req WAR files 
+
+
+Generating WAR file with Minimal Code:
+
+.WAR file--> ARTIFACT 
+for generating WAR file we req
+
+IDE EDITOR(Eclipse, VS, Pycharm, Netbeans)
+Java code 
+Maven s/w in local system
+
+Now install Eclipse and then open it and in New proj choose mvn project 
+and follow the steps to generate WAR file
+
+For the java code we need Serverlets and JSP code for that we can add dependencies of those 
+
+Search for Mvane central Repository and then search for Java Servlet API 
+choose he latest and take the script of the latest and addit to pom.xml file
+
+similarly add JSP dependencies as well
+
+Now after adding dependencies in the folder choose Maven Dependencies right click on it, build path, configure build path 
+now give the package name and calss name now paste the code check the calss names and modify 
+
+go to main folder right click and run as maven build now give the package name there and click on run to generate WAR file
+
+
+
 
 
 
