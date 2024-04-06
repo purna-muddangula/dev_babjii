@@ -467,11 +467,30 @@ once jar file is created we need to create war file
 
 war file --> git hub --> jenkins/ Docker/Kubernetes
 
+First install mvn
+Then check mvn version
+Now give this command mvn archetype:generate and now after giving this command 
+It runs for sometime and asks for portno give the port no 
+and now it runs for sometime and then asks for version which one to install give the version
+after choosing version it now asks for group name artifact id: give those names 
+Now the Build will be success 
+Now we need to compile it for this go to that file by using the command
+ cd filename
+Now give the command 
+Mvn compile
+After doing compile these files will be converted as POM.xml and source coude will be converted as class files
+
+Now give the command MVN package:which creates jar files(This is the Artifact)
+
+
+
 
 mvn archetype:generate -->taking sample project
 cd --> compile --> mvn compile
 mvn test --> convert  all class files (if more than 1)
 mvn package --> data --> Artifact
+
+Create one EC2 instance in windows and install Maven 
 
 
 
