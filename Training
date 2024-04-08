@@ -581,6 +581,38 @@ Manual/ Automate:Groovy
 
 
 
+Scripting vs Programing
+
+Programming:set of programs to perform tasks
+
+we use prgramming lang's to develop apps
+like java, sql, c, cpp
+
+Scripting:To validate the things we use scripting 
+It is light weight,means it won't consume more resources
+
+
+Groovy Script:
+
+We have dif scripting lang's
+
+JSON
+Python
+SQL 
+SHELL
+Groovy
+YAML
+
+
+gROOVY:
+
+It is OO lang, it allows reusability secure and easy to extend
+It has Java syntax
+It Integrates Objects -->Interface(Jenkins)
+Agile(Jira)
+
+
+
 
 
 
