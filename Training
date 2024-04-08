@@ -540,7 +540,34 @@ now give the package name and calss name now paste the code check the calss name
 
 go to main folder right click and run as maven build now give the package name there and click on run to generate WAR file
 
+JENKINS
 
+Installation:
+
+To maintain the flow of project we need Jenkins 
+Jenkins is also for Testers, Developers 
+need to estalish pipelines
+we have to maintain the stream between GIT-->MVAEN-->JENKINS-->ANSIBLE-->AWS
+
+
+
+By using Jenkins Tool we can build pipeline jobs 
+There are also other aleternatives like openstack
+We have choosed Jenkins as it is opensource, java based 
+Here we are aintainng CI/CD Pipeline
+
+
+CI/CD:Continous Integration, Continous Deployment
+Eg:phonepe(adding multiplefeatures to it)
+
+continous download
+continous build
+continous deploy
+continous test  these comes under CI
+
+Conitnous Deliverables
+
+continous dev
 
 
 
