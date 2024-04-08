@@ -569,6 +569,17 @@ Conitnous Deliverables
 
 continous dev
 
+ Continous Downalod:GIT
+ Continous Build:Maven
+Continous Deploy:Tomcat(Qa)
+Continous Testing:Se, Junit
+
+Continous Dev
+
+continous Dev|:Tomcat(prod)
+Manual/ Automate:Groovy
+
+
 
 
 
