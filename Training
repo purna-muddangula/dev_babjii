@@ -712,6 +712,101 @@ adding users in sonar
 
 
 
+Docker:
+
+Wy docker why not jenkins
+
+Docker is a centralized platform for packaging, deploying and running apps
+It is open source
+
+Docker Host--> Docker server
+It is light weight(VMS)
+
+Virtual Machine:It is a software, allows to install os
+
+
+LINUX
+Windows
+MAC 
+Debian
+
+
+Virtualization vs Containerization
+
+In virtualization hardware resource allocation takes place
+
+In containrization without guest os we can run all apps with containrization tool
+
+Diff between containrization vs virtualization
+
+Process Isolation:There is no fixed h/w everything is independent 
+
+Virtualization:
+Integration in virtualization(container)
+very slow and costly
+wastage of memory
+uses os, it uses diff os  for distributions
+
+
+
+
+
+Containarization:
+Integration in docker(container)
+very fast and cheap
+No wastage of memory
+no uses os, it uses kernel for distributions
+
+
+Docker:Installation 
+
+Docker
+Docker Host:Docker in ec2 machine or cloud is called as docker host
+Containers
+Docker Image:App or software needs to install in docker host
+
+
+command to verify docker images:docker ls
+
+docker images
+docker image ls
+
+
+How to run docker image
+docker run --name mytomcat -p 7777:8080 tomee
+
+name:name to the conatiner
+mytomcat:name of the container
+p:mapping default port to user port
+7777:wishing port
+tomee:image name
+
+
+docker image:app
+
+container:micro service
+running the image:docker container
+
+
+ctrl+c
+ctrl+pq
+
+
+-d:detach mode (no log msg)
+-i:intereactive terminal for os,pgms,db
+-p:automatic port number will assign 
+-e:env variables
+-v:attach volume
+
+
+Docker Compose
+
+
+
+
+
+
+
 
 
 
