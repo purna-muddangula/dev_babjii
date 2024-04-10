@@ -665,6 +665,54 @@ JAVA software
 These steps needs to be foollowed for master and slave config 
 
 
+Sonar Cube Intro and install:
+
+Checks Quality of product (it's code , whether it is properly build or not whther it will exe in diff env or not)
+Sonar cube is a tool whoch checks the above qualities
+
+Importance of code quality 
+
+.It's static code analysis
+.Free and open source
+.check quality:
+ bugs
+ defects
+ code duplications
+ complexity
+
+
+It also secures vulnerability
+
+Sonar cube is like a testing tool which checks our porj cose whther it has any bugs or flaws in it
+And it supports around 25 languages
+
+Q.How to setup Sonarcube Dashboard?
+
+Q.How sonarcube is present in realtime and how we will use it
+
+Create ec2 instance
+select t2 small or medium as instance type
+Amazon linux kernel 5.10 as AMI
+Create new keypair as Mazonec2kernel
+3gb 
+
+
+first check whether java is isntalled or not in launched instance 
+then install java
+now isntall sonar 
+by wget (url of sonar)
+zipped file willbe downloaded
+unzip it and then check
+sonar properties:imp file to config sonar
+./sonar.sh start: to start sonar
+./sonar.sh status:to check the status
+
+
+adding users in sonar
+
+
+
+
 
 
 
