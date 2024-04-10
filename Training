@@ -643,6 +643,29 @@ How to create Jenkins File?
 Jenkins file has pipeline scripting 
 
 
+Jenkins Master Slave Agent Nodes
+
+At first there is only one main single node athat is labeled as master and it has 1000's of jobs 
+If this node is on down then these jobs will also be down 
+
+So, Indorder to reduce downtime we can switch for slave config 
+
+master, slave nodes has to be configured then 
+
+so we are going to take one more ec2 machine and we can install 
+
+JAVA software
+
+1.Jenkins Server
+2.Java Machine in EC2 (Slave)
+3.Config Master and slave
+4.We need to download one ip file from Jenkins(agent.jar) node-->agents
+5.Run Jenkins job
+
+These steps needs to be foollowed for master and slave config 
+
+
+
 
 
 
