@@ -902,7 +902,34 @@ Scalability	                                Does not support automatic scaling	 
 Security	                                   Only supports TLS	                                                      Supports RBAC, SSL/TLS, and secret management
 
 
+Kubernetes Deploys manages creates clusters 
 
+If we want to create cluster we want kubernete engine for that we should have google network for that we require google cloud account 
+
+Cluster:for deploying and managing apps
+Cluster will be having one master and group of slave nodes 
+
+Cluster:Quickly and easily deploy and manage containerized apps --K8'S
+
+GCP-->Cluster-->Connected-->CMD-->
+
+1.Kubectl get nodes --> check list of nodes 
+2.Kubectl get pods--> check list of pods
+
+
+SMALLEST UNIT OF K8'S ACTS of Image (Container)
+Inside of pod --> pod under ctl of node itslef
+
+Multiple pods for each node org  by cluster 
+
+Single level pod (Kubernetes cmd)
+Multi container pod
+Kubectl delete pod Name of POD
+
+API Version
+Name of the object
+Meta Data
+Spec:Action Part
 
 
 
