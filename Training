@@ -800,8 +800,106 @@ ctrl+pq
 
 
 Docker Compose
+Docker Run, Delete
+
+Multi container link:How to connect two containers at a time
+How to link two containers
 
 
+Docker is a container engine that can create and manage containers, whereas Jenkins is a CI engine that can run build/test on your app. 
+Docker is used to build and run multiple portable environments of your software stack. 
+Jenkins is an automated software testing tool for your app.
+
+
+Docker is used to build and run multiple portable environments of your software stack. Jenkins is an automated software testing tool for your app. 
+Also, don't forget that Jenkins started as a build tool for Java apps. 
+Jenkins provides an easy interface to create and manage multiple CI/CD pipelines using its plugins.
+
+Containerization is the packaging of software code with just the operating system (OS) libraries and dependencies that are required to run the code to 
+create a single lightweight executable—called a container—that runs consistently on any infrastructure.
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
+A Docker container image is a lightweight, standalone, executable package of software that 
+includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+A Docker container is a self-contained, runnable software application or service. On the other hand, 
+a Docker image is the template loaded onto the container to run it, like a set of instructions. 
+
+Docker Hub is a container registry built for developers and open source contributors to find, use, and share their container images
+
+Docker Compose is a tool that helps you define and share multi-container applications. With Compose, you can create a YAML file to define the services and with a single command
+
+How do you link containers in docker?
+
+To create a link, you use the --link flag. First, create a new container, this time one containing a database. 
+This creates a new container called db from the training/postgres image, which contains a PostgreSQL database. Now, create a new web container and link it with your db container.
+
+A Docker volume is an independent file system entirely managed by Docker and exists as a normal file or directory on the host, where data is persisted.
+
+
+
+Jenkins Users:
+
+Segregating jobs depending up on the users like 
+developer jobs
+testing jobs 
+
+Managing users in Jenkins 
+
+Multi Containers
+
+link
+Docker compose 
+Adhoc cmds
+
+Docker compose 
+
+external commands 
+10,20 containers etc 
+
+YAML Script 
+
+Docker-compose.yml
+
+Root Element:
+
+child element 
+
+value1
+value2 etc,
+
+Docker-compose up 
+docker-compose up -d
+docker ps
+docker ps -a
+docker images
+docker rm -f mysql
+docker stop
+
+
+Docker Swarm is a container orchestration tool for clustering and scheduling Docker containers
+
+Orchestration is the coordination and management of multiple computer systems, applications and/or services, 
+stringing together multiple tasks in order to execute a larger workflow or process
+
+A cluster in docker refers to multiple nodes joined using swarm mode
+
+Docker is used to create, distribute and run isolated containers, while Docker Swarm is used to manage and orchestrate a cluster of Docker containers.
+
+
+                                             Criteria	Docker                                                                Swarm	Kubernetes
+Installation and setup	                     Easy to set up using the docker command	                                Complicated to manually set up the Kubernetes cluster
+Types of containers they support	           Only works with Docker containers	                                      Supports Containerd, Docker, CRI-O, and others
+High Availability	                          Provides basic configuration to support high availability	              Offers feature-rich support for high availability
+Popularity	                                 Popular	                                                                Popular
+Networking	Support                          basic networking features	                                              Advanced features support for networking
+GUI support	                                Yes	                                                                    Yes
+Learning curve	                             Easy to get started	                                                    Requires a steeper learning curve
+Complexity	                                 Simple and lightweight	                                                 Complicated and offer a lot of features
+Load balancing	                             Automatic load-balancing	                                               Manual load-balancing
+CLIs                                    	   Do not need to install other CLI	                                       Need to install other CLIs such as kubectl
+Scalability	                                Does not support automatic scaling	                                     Supports automatic scaling
+Security	                                   Only supports TLS	                                                      Supports RBAC, SSL/TLS, and secret management
 
 
 
