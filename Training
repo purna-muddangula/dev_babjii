@@ -939,6 +939,16 @@ Pods are simply the smallest unit of execution in Kubernetes, consisting of one 
 each with one or more application and its binaries. Nodes are the physical servers or VMs that comprise a Kubernetes Cluster.
 
 
+Cluster:Quickly and easily deploy and manage containrsed apps--> k8's(set of nodes master+slave)
+nodes are also called as pods
+
+GCP-->CLUSTER-->ONNECTED-->CMD-->
+
+1.Kubectl get nodes -->check list of nodes
+2.Kubectl get pods  -->check list of pods 
+
+
+
 
 
 
