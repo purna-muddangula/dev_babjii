@@ -948,6 +948,40 @@ GCP-->CLUSTER-->ONNECTED-->CMD-->
 2.Kubectl get pods  -->check list of pods 
 
 
+Ansible:
+
+Configuration management tool
+To automate 
+
+The same task is being repeated multiple times 
+Manual work may result in errors
+
+ANSIBLE:A Tool which Automates configuration of all these systems
+With Ansible a small team of system admin will be writing code in YAML and these codes are deployed in servers which configured in desired state
+
+Ansible automates
+
+Configuration management:configures systems it automates
+Orchestration:It brings the no of apps and decides the order in which these are executed it also automates deployment of apps
+
+
+PLAYBOOK:
+
+Technical term used for configuration files that we write in ANSIBLE 
+These plabooks are written in YAML
+
+
+Hosts machine:Place where the configuration file or playbook file is executed
+become true:we need to be root to execute these
+tasks actions which needs to be performed
+
+
+Ansible:push configuration tool(server pushes configuration to nodes)
+
+
+Playbooks:Instructions to configure the nodes 
+They are written in YAML (labg used to describe data)
+
 
 
 
